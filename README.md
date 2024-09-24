@@ -5,15 +5,15 @@
 수술 영상 내에서 수술 도구를 라벨링(labeling)하는 과정을 자동화 하기 위해 딥러닝 알고리즘을 적용했으며,
 본 레포지토리에서는 SAM(Segment-Anything) 알고리즘과 관련한 부분을 다루고 있습니다.
 
-- data
-  - json2mask.py
+- **data**
+  - **json2mask.py**
     - Transform coordination json file to mask
-  - mkprompt.py
+  - **mkprompt.py**
     - Making prompt to learn SAM
-  - xml2json.py
+  - **xml2json.py**
     - Transform xml to json
-- sam_finetuning.py
-- sam_finetuning_pl.py
+- **sam_finetuning.py**
+- **sam_finetuning_pl.py**
   - SAM finetuning using Pytorch Lightning
-- test.py
+- **test.py**
   - Output comparison and evaluation
