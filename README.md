@@ -6,6 +6,14 @@
 본 레포지토리에서는 SAM(Segment-Anything) 알고리즘과 관련한 부분을 다루고 있습니다.
 
 - data
-- sam-finetuning
-- sam-finetuning-pl
-- test
+  - json2mask.py
+    Transform coordination json file to mask
+  - mkprompt.py
+    Making prompt to learn SAM
+  - xml2json.py
+    Transform xml to json
+- sam_finetuning.py
+- sam_finetuning_pl.py
+  SAM finetuning using Pytorch Lightning
+- test.py
+  Output comparison and evaluation
