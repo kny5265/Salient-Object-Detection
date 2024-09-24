@@ -7,13 +7,13 @@
 
 - data
   - json2mask.py
-    Transform coordination json file to mask
+    - Transform coordination json file to mask
   - mkprompt.py
-    Making prompt to learn SAM
+    - Making prompt to learn SAM
   - xml2json.py
-    Transform xml to json
+    - Transform xml to json
 - sam_finetuning.py
 - sam_finetuning_pl.py
-  SAM finetuning using Pytorch Lightning
+  - SAM finetuning using Pytorch Lightning
 - test.py
-  Output comparison and evaluation
+  - Output comparison and evaluation
